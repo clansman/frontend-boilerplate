@@ -7,7 +7,12 @@
     "gulp-coffee": "latest",
     "gulp-jade": "latest",
     "gulp-stylus": "latest",
-    "gulp-rename": "latest"
+    "gulp-rename": "latest",
+    "jeet": "latest",
+    "nib": "latest",
+    "gulp-uglify": "latest",
+    "express":"latest",
+    "connect-livereload":"latest"
   },
   "dependencies": {
     "gulp-livereload": "^2.1.1"
