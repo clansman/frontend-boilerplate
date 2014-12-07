@@ -18,7 +18,7 @@ var sources = {
 
 // Define destinations object
 var destinations = {
-  html: "./assets/",
+  html: ".",
   css: "./assets/",
   js: "./assets/"
 };
@@ -54,7 +54,7 @@ gulp.task('server', function () {
   var express = require('express');
   var app = express();
   app.use(require('connect-livereload')());
-  app.use(express.static(__dirname+'/assets/'));
+  app.use(express.static(__dirname));
   app.listen(4000, '0.0.0.0');
 });
 
